@@ -7,14 +7,10 @@ richochet
 
 
 ##Jacob 
-1. Enable Pause
-2. Enable Restart
-3. HUD(Level Timer, Score?)
-4. Prevent Player Falling Off on Own
-5. Import Model for Player
-6. Clean up Arena
-7. Create VR Menus: Music, Disk Color
-
+1. Enable Pause + logic
+2. Enable Restart Game
+3. Fix Scoreboard/ level Timer (move vars to gamemode, and spawn two instances, one for each player?)
+4. Create end game logic
 
 
 ##Ben
@@ -24,8 +20,14 @@ richochet
 4. Enable Player to spawn Chosen Minions
 
 
-##Unassigned
+##To Do
 1.	Improve Disk Physics
+2.	Fix on round restart, character still has the physics movement from before and may fall consequtivally
+3.	When timer ends, End Game
+4.	Add delay to round restart/start(disable firing guns while falling)
+5.	Menu for Music/Disk Color
+6.	Clean up arena environment
+7.	Fix scoreboard fonts
 
 
 ##Future
