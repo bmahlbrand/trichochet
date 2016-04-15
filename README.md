@@ -7,10 +7,15 @@ richochet
 
 
 ##Jacob 
-1. Enable Pause + logic
-2. Enable Restart Game
-3. Fix Scoreboard/ level Timer (move vars to gamemode, and spawn two instances, one for each player?)
-4. Create end game logic
+5. Disallow firing in start area
+6. Clean up textures, lighting, area, etc
+7. Disable jumping
+9. Add end logic for round timer expiring(what to do??)
+10. Call restart game when 10 rounds are over
+10. Add delay when starting game/new round
+11. Add Billboard to each player to display messages instead of print string (New ROund, Scored Point, etc)
+12. Add rules to start arena
+13. Make things look better!
 
 
 ##Ben
@@ -21,14 +26,10 @@ richochet
 
 
 ##To Do
-1.	Improve Disk Physics
-2.	Fix on round restart, character still has the physics movement from before and may fall consequtivally
-3.	When timer ends, End Game
-4.	Add delay to round restart/start(disable firing guns while falling)
-5.	Menu for Music/Disk Color
-6.	Clean up arena environment
-7.	Fix scoreboard fonts
+2.	Fix on round restart, character still has the physics movement from before and may fall consecutively
+3. add fourth music choice
+4. add music looping??
 
 
-##Future
+##If time
 1.  Change disk throw velocity on mouse charge
