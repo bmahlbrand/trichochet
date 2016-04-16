@@ -32,3 +32,16 @@ richochet
 
 ##Future
 1.  Change disk throw velocity on mouse charge
+
+
+##To Run
+start command prompt from<br><br>
+C:\Program Files (x86)\Epic Games\4.10\Engine\Binaries\Win64
+RUN
+UE4Editor-Cmd "PATH TO Project file" -server -log<br><br>
+UE4Editor-Cmd "C:\Git\VR\goodTR\tr.uproject" -server -log
+
+RUN TWO CLIENTS<br>
+navigate to where you packaged<br>
+run<br>
+tr.exe IPADDRESSGOESHERE -game
