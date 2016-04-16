@@ -7,10 +7,13 @@ richochet
 
 
 ##Jacob 
-1. Enable Pause + logic
-2. Enable Restart Game
-3. Fix Scoreboard/ level Timer (move vars to gamemode, and spawn two instances, one for each player?)
-4. Create end game logic
+1. Disallow firing in start area
+2. Clean up textures, lighting, area, etc
+3. Add end logic for round timer expiring(what to do??)
+4. Call restart game when 10 rounds are over
+5. Add delay when starting game/new round
+6. Add Billboard to each player to display messages instead of print string (New ROund, Scored Point, etc)
+4. Add rules to start arena
 
 
 ##Ben
@@ -30,8 +33,10 @@ richochet
 7.	Fix scoreboard fonts
 
 
-##Future
-1.  Change disk throw velocity on mouse charge
+##todo
+1. Fix on round restart, character still has the physics movement from before and may fall consecutively
+1. add fourth music choice
+1. add music looping??
 
 
 ##To Run
