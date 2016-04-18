@@ -30,6 +30,7 @@ UE4Editor-Cmd "PATH TO Project file" -server -log<br><br>
 UE4Editor-Cmd "C:\Git\VR\goodTR\tr.uproject" -server -log
 
 RUN TWO CLIENTS<br>
+Run on server machine first with :7777 after IP
 navigate to where you packaged<br>
 run<br>
 tr.exe IPADDRESSGOESHERE -game
