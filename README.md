@@ -17,12 +17,22 @@ Magical:
 
 
 
-##To Run
-start command prompt from<br><br>
+##To Run Server
+
+Find Path to "UE4Editor-Cmd" depends on installation.  Will be something like:
+
 C:\Program Files (x86)\Epic Games\4.10\Engine\Binaries\Win64
+OR
+C:\Program Files\Unreal\4.10\Engine\Binaries\Win64
+
 RUN
 UE4Editor-Cmd "PATH TO Project file" -server -log<br><br>
 UE4Editor-Cmd "C:\Git\VR\goodTR\tr.uproject" -server -log
 
+This will start the server
 
-tr.exe IPADDRESSGOESHERE -game
+##To connect with clients
+tr.exe IPADDRESSOFSERVERGOESHERE -game
+
+##To use VR
+Press alt-enter after starting the game
